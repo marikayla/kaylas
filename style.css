@@ -1,0 +1,52 @@
+header{
+    width: 1280px;
+    position: fixed;
+}
+
+
+ul{
+background-color: red;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: blue;
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: rgb(62, 62, 90);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* left column */
+.column.side{
+    margin: 170px 0px;
+    width: 250px;
+    height: 400px;
+    background-color: aliceblue;
+}
